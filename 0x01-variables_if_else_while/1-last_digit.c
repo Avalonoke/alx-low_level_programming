@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main -Entry point
- * Discription: 'Get the last digit of a number'
+ * Discription: 'Print the last digit of a number'
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
@@ -29,5 +31,4 @@ int main(void)
 				n, n % 10);
 	}
 	return (0);
-
 }
